@@ -7,10 +7,9 @@ import com.headfirstlabs.duck.behaviour.quack.Quack;
  * @author arkangelofkaos
  */
 public class ModelDuck extends Duck {
-
     public ModelDuck() {
-        this.flyBehaviour = new FlyNoWay();
-        this.quackBehaviour = new Quack();
+        this.setFlyBehaviour(new FlyNoWay());
+        this.setQuackBehaviour(new Quack());
     }
 
     @Override

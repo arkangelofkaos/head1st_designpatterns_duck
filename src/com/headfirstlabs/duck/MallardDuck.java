@@ -8,8 +8,8 @@ import com.headfirstlabs.duck.behaviour.quack.Quack;
  */
 public class MallardDuck extends Duck {
     public MallardDuck() {
-        this.quackBehaviour = new Quack();
-        this.flyBehaviour = new FlyWithWings();
+        this.setQuackBehaviour(new Quack());
+        this.setFlyBehaviour(new FlyWithWings());
     }
 
     @Override

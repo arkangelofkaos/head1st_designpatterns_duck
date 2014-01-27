@@ -3,6 +3,8 @@ package com.headfirstlabs.duck;
 import com.headfirstlabs.duck.behaviour.fly.FlyRocketPowered;
 
 /**
+ * Run harness for simulating ducks and setting behaviour at runtime.
+ *
  * @author arkangelofkaos
  */
 public class MiniDuckSimulator {

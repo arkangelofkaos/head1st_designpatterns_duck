@@ -10,11 +10,8 @@ import com.headfirstlabs.duck.behaviour.quack.QuackBehaviour;
  */
 public abstract class Duck {
 
-    FlyBehaviour flyBehaviour;
-    QuackBehaviour quackBehaviour;
-
-    public Duck() {
-    }
+    private FlyBehaviour flyBehaviour;
+    private QuackBehaviour quackBehaviour;
 
     public void setFlyBehaviour(FlyBehaviour flyBehaviour) {
         this.flyBehaviour = flyBehaviour;

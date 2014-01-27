@@ -6,6 +6,6 @@ package com.headfirstlabs.duck.behaviour.quack;
 public class MuteQuack implements QuackBehaviour {
     @Override
     public void quack() {
-        System.out.println("<< SIlence >>");
+        System.out.println("<< Silence >>");
     }
 }
